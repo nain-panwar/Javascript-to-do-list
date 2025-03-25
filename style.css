@@ -18,16 +18,18 @@ body {
   border-radius: 10px;
   padding: 20px;
 }
-h2 {
+h1 {
+  font-weight: bold;
   color: #2575fc;
   text-align: center;
   margin-bottom: 20px;
 }
 .list li {
+  font-weight: bold;
   border: 1px solid black;
   list-style-type: none;
   background-color: #8ab6f9;
-  color: #fff;
+  color: #080000;
   font-size: 20px;
   padding: 10px;
   margin-bottom: 10px;
@@ -39,7 +41,7 @@ h2 {
   margin-top: 20px;
 }
 .action input {
-  height: 30px;
+  height: 35px;
   padding: 10px;
   font-size: 18px;
   width: 70%;
