@@ -1,4 +1,4 @@
-let tasks = ["Complete project", "Go to the gym", "Buy groceries", "Read a book"];
+let tasks = ["Milk", "Eggs", "Bread", "Apples"];
 let list = document.querySelector(".list");
 
 function displayTasks() {
@@ -19,6 +19,6 @@ function addTask() {
     displayTasks(); 
     newTaskInput.value = ""; 
   } else {
-    alert("Please enter a task");
+    alert("Please enter a grocery item");
   }
 }
